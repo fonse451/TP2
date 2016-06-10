@@ -49,7 +49,7 @@ char **split(const char *str, char sep){
     return cadenas;
 }
 
-char *join(char **strv, char sep){
+char *join_1(char **strv, char sep){
     if (!strv[0]){
         char* cadena_vacia;
         cadena_vacia = strdup("");

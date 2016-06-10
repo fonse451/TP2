@@ -29,7 +29,7 @@ char *substr(const char *str, size_t n);
  * El caller toma ownership de la cadena devuelta. La función devuelve NULL
  * si no se pudo allocar memoria.
  */
-char *join(char **strv, char sep);
+char *join_1(char **strv, char sep);
 
 /*
  * Libera un arreglo dinÃ¡mico de cadenas, y todas las cadenas que contiene.
